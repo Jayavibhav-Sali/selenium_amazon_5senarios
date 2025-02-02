@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="amazon_tests_testcases.testcase_4_addandrremove_logout"/>
+      <class name="amazon_tests_testcases.testcase_5_addtocart3timesandremove_logout"/>
+      <class name="amazon_tests_testcases.testcase_1_Login_Cart_logout"/>
+      <class name="amazon_tests_testcases.testcase_3_register_login"/>
+      <class name="amazon_tests_testcases.testcase_2_login_whishlist_addtocart_cod_logout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
