@@ -18,7 +18,7 @@ public class LaunchAndQuit_withoutif_condtion {
 		
 		driver= new FirefoxDriver();
 		driver.get("https://www.amazon.in");
-	//	driver.manage().window().maximize();
+	        driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 			
 	}
