@@ -26,7 +26,7 @@ public class LaunchAndQuit_withoutif_condtion {
 	@AfterMethod
 	public void quit() {
 		
-		//driver.quit();
+		driver.quit();
 	}
 
 }
